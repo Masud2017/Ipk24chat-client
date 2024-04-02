@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/e/intellijproject/test/IPK_project1/build/tests/chat_test[1]_tests.cmake")
+  include("/mnt/e/intellijproject/test/IPK_project1/build/tests/chat_test[1]_tests.cmake")
+else()
+  add_test(chat_test_NOT_BUILT chat_test_NOT_BUILT)
+endif()
